@@ -1,97 +1,74 @@
-🏋️‍♂️ AI Fitness Tracker (Full Stack Application)
+# 🏋️‍♂️ AI Fitness Tracker (Full Stack Application)
 
-A full-stack fitness application designed to help users plan, track, and improve their fitness journey with the help of AI-powered features.
+A full-stack fitness application designed to help users **plan, track, and improve their fitness journey** using **AI-powered features**.
 
-This platform provides personalized workout planning, progress tracking, and smart generative fitness suggestions. It also includes modern authentication and voice-based interaction for a smooth user experience.
+This project includes modern authentication, voice-based interaction, and smart generative responses to support fitness planning and progress tracking.
 
-🚀 Features
-✅ Core Features
+---
 
-User Registration & Login
+## 🚀 Features
 
-Google Authentication (OAuth)
+- User Authentication (Google OAuth + JWT)
+- Workout Tracking (exercise logs, sets, reps, progress)
+- AI-based Workout Plan Generator
+- AI Fitness Assistant (smart responses)
+- Voice Input Support
+- Fitness Progress Dashboard
 
-Workout & Exercise Tracking
+---
 
-Diet / Nutrition Logging (optional)
+## 🤖 AI Features
 
-Progress Dashboard (weight, BMI, workouts, calories, etc.)
+- Personalized workout plan generation
+- Smart fitness suggestions using generative AI
+- Goal-based recommendations
+- Chat-based AI assistant for fitness queries
 
-Daily / Weekly Fitness Goals
+---
 
-🤖 AI Features
+## 🎙️ Voice Features
 
-AI-generated workout plans based on user goals
+- Voice input for assistant
+- Voice commands to log workouts and check progress
+- (Optional) Text-to-speech AI responses
 
-AI-generated diet suggestions (optional)
+---
 
-Smart responses for fitness queries (Generative AI)
+## 🛠️ Tech Stack
 
-Personalized recommendations based on user activity history
+**Frontend**
+- React / Next.js
+- Tailwind CSS
+- Axios
 
-AI-based fitness assistant chatbot
+**Backend**
+- Node.js
+- Express.js
 
-🎙️ Voice Features
+**Database**
+- MongoDB
 
-Voice input for fitness assistant
+**Authentication**
+- Google OAuth 2.0
+- JWT
 
-Voice-based commands (log workout, check progress, generate plan, etc.)
+**AI Integration**
+- OpenAI API / Generative AI APIs
 
-Text-to-speech responses (optional)
+---
 
-🛠️ Tech Stack
-Frontend
+## 📂 Planned Folder Structure
 
-React.js / Next.js
+```bash
+fitness-ai-app/
+│── client/         # Frontend (React/Next)
+│── server/         # Backend (Node + Express)
+│── models/         # MongoDB Models
+│── routes/         # API Routes
+│── controllers/    # Business Logic
+│── middleware/     # Auth & Validation
+│── utils/          # Helper Functions
+│── config/         # Config Files
+│── README.md
 
-Tailwind CSS
 
-Axios
-
-Speech Recognition API (backend or browser-based)
-
-Backend
-
-Node.js
-
-Express.js
-
-REST API
-
-Database
-
-MongoDB (Mongoose)
-
-Authentication
-
-Google OAuth 2.0
-
-JWT Authentication
-
-AI Integration
-
-OpenAI API / Generative AI API (for smart fitness plans and responses)
-
-📌 Project Goals
-
-Build a scalable and modern full-stack fitness application.
-
-Integrate real-world features like Google authentication.
-
-Implement AI capabilities for smart fitness planning and tracking.
-
-Provide a smooth UI/UX with voice-based interaction.
-
-📌 Future Enhancements
-
-Fitness streak tracking & gamification
-
-Subscription model (premium AI features)
-
-Workout video recommendations
-
-Community / social sharing feature
-
-📜 License
-
-This project is licensed under the MIT License.
