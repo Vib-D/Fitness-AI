@@ -70,5 +70,6 @@ fitness-ai-app/
 │── utils/          # Helper Functions
 │── config/         # Config Files
 │── README.md
-
-
+```
+**License**
+- This project is licensed under the MIT License.
