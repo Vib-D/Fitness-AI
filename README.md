@@ -1,75 +1,82 @@
-# 🏋️‍♂️ AI Fitness Tracker (Full Stack Application)
+<h1 align="center">💪 AI Fitness Assistant 🤖</h1>
 
-A full-stack fitness application designed to help users **plan, track, and improve their fitness journey** using **AI-powered features**.
 
-This project includes modern authentication, voice-based interaction, and smart generative responses to support fitness planning and progress tracking.
+## Highlights:
 
----
+- 🚀 Tech stack: Next.js, React, Tailwind & Shadcn UI
+- 🎙️ Voice AI Assistant (Vapi)
+- 🧠 LLM Integration (Gemini AI)
+- 🏋️ Personalized Workout Plans
+- 🥗 Custom Diet Programs
+- 🔒 Authentication & Authorization (Clerk)
+- 💾 Database (Convex)
+- 🎬 Real-time Program Generation
+- 💻 Layouts
+- 🎭 Client & Server Components
 
-## 🚀 Features
+## Features
 
-- User Authentication (Google OAuth + JWT)
-- Workout Tracking (exercise logs, sets, reps, progress)
-- AI-based Workout Plan Generator
-- AI Fitness Assistant (smart responses)
-- Voice Input Support
-- Fitness Progress Dashboard
+- **Smart AI Assistant**: Engage in conversation with an AI that asks about your fitness goals, physical condition, and preferences
+- **Personalized Workout Plans**: Get custom exercise routines based on your fitness level, injuries, and goals
+- **Diet Recommendations**: Receive personalized meal plans accounting for your allergies and dietary preferences
+- **User Authentication**: Sign in with GitHub, Google, or email/password
+- **Program Management**: Create and view multiple fitness programs with only the latest one active
+- **Responsive Design**: Beautiful UI that works across all devices
 
----
+## Setup .env file
 
-## 🤖 AI Features
+```js
+# Clerk Authentication
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
 
-- Personalized workout plan generation
-- Smart fitness suggestions using generative AI
-- Goal-based recommendations
-- Chat-based AI assistant for fitness queries
+# Clerk Redirect URLs
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
----
+# Vapi Voice AI
+NEXT_PUBLIC_VAPI_WORKFLOW_ID=
+NEXT_PUBLIC_VAPI_API_KEY=
 
-## 🎙️ Voice Features
-
-- Voice input for assistant
-- Voice commands to log workouts and check progress
-- (Optional) Text-to-speech AI responses
-
----
-
-## 🛠️ Tech Stack
-
-**Frontend**
-- React / Next.js
-- Tailwind CSS
-- Axios
-
-**Backend**
-- Node.js
-- Express.js
-
-**Database**
-- MongoDB
-
-**Authentication**
-- Google OAuth 2.0
-- JWT
-
-**AI Integration**
-- OpenAI API / Generative AI APIs
-
----
-
-## 📂 Planned Folder Structure
-
-```bash
-fitness-ai-app/
-│── client/         # Frontend (React/Next)
-│── server/         # Backend (Node + Express)
-│── models/         # MongoDB Models
-│── routes/         # API Routes
-│── controllers/    # Business Logic
-│── middleware/     # Auth & Validation
-│── utils/          # Helper Functions
-│── config/         # Config Files
-│── README.md
+# Convex Database
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
 ```
-**License**
-- This project is licensed under the MIT License.
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+
+```shell
+npm install
+```
+
+3. Set up your environment variables as shown above
+4. Run the development server:
+
+```shell
+npm run dev
+```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Deployment
+
+This application can be easily deployed to Vercel:
+
+```shell
+npm run build
+npm run start
+```
+
+Or connect your GitHub repository to Vercel for automatic deployments.
+
+## Technologies Used
+
+- **Next.js**: React framework for building the frontend and API routes
+- **Tailwind CSS & Shadcn UI**: For styling and UI components
+- **Clerk**: Authentication and user management
+- **Vapi**: Voice agent platform for conversational AI
+- **Convex**: Real-time database
+- **Gemini AI**: Large Language Model for generating personalized fitness programs
