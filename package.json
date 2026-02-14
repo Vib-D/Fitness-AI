@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.60.1",
     "@clerk/nextjs": "^6.37.3",
     "@vapi-ai/web": "^2.5.2",
     "class-variance-authority": "^0.7.1",
